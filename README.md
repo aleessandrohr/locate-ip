@@ -1,6 +1,6 @@
 # Localizar IP
 
-Uma simples aplicação Web que lhe ajuda a localizar um ip com suas informações.
+Uma simples aplicação Web que lhe ajuda a localizar um ip com suas respectivas informações.
 
 <p align="center">
     <img src="https://img.shields.io/github/license/alessandrohenriqueramos/localizar-ip?color=000" alt="license"/>
