@@ -51,6 +51,8 @@ const IP: React.FC = () => {
     });
   }, []);
 
+  console.log(data?.info)
+
   return (
     <Container>
       <div>
