@@ -13,6 +13,7 @@ interface Data {
     longitude: number;
     timezone: string;
     org: string;
+    postal: string;
   };
   error?: boolean;
 }
@@ -24,7 +25,6 @@ const IP: React.FC = () => {
   const SearchIp = (e: React.FormEvent) => {
     e.preventDefault()
     fetch(`https://ipapi.co/${ip}/json/`).then(async (response) => {
-      console.log(response)
       if (response.status === 404) {
         setData({ error: true });
         return;
@@ -98,6 +98,14 @@ const IP: React.FC = () => {
             </h1>
             <p>
               {data.info.city}
+            </p>
+          </div>
+          <div>
+            <h1>
+              Postal:
+            </h1>
+            <p>
+              {data.info.postal}
             </p>
           </div>
           <div>
