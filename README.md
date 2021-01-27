@@ -1,72 +1,54 @@
-# Localizar IP
+# Locate IP
 
-Uma simples aplicação Web que lhe ajuda a localizar um ip com suas respectivas informações.
+An application that provides you with data from an ip.
 
 <p align="center">
-    <img src="https://img.shields.io/github/license/alessandrohenriqueramos/localizar-ip?color=000" alt="license"/>
-    <img src="https://img.shields.io/github/package-json/v/alessandrohenriqueramos/localizar-ip?color=000" alt="version">
+    <img src="https://img.shields.io/github/license/alessandrohenriqueramos/locate-ip?color=000" alt="license"/>
+    <img src="https://img.shields.io/github/package-json/v/alessandrohenriqueramos/locate-ip?color=000" alt="version">
 </p>
 
-## Acesse
+## Access
 
-Para acessar a página da aplicação apenas clique [aqui](https://localizar-ip.vercel.app).
+To access the application page just click [here](https://locate-ip.vercel.app).
 
----
+## Getting the code
 
-## Tecnologias utilizadas
+As prerequisites, it is necessary to install [Node.js](https://nodejs.org/en/download/) or [Yarn](https://classic.yarnpkg.com/en/docs/install) in the latest LTS version.
 
-Para o desenvolvimento desta aplicação foi utilizado as seguintes tecnologias:
-
-* ![Visual-Studio-Code)](https://img.shields.io/badge/Visual--Studio--Code-1380B7)
-* ![HTML5](https://img.shields.io/badge/HTML5-FA580C)
-* ![CSS3](https://img.shields.io/badge/CSS3-173FF2)
-* ![TypeScript](https://img.shields.io/badge/TypeScript-1C7FEA)
-* ![ReactJS](https://img.shields.io/badge/ReactJS-4CDAFE)
-
----
-
-## Obtendo o código
-
-Como pré-requisitos, é necessário instalar o [Node.js](https://nodejs.org/pt-br/download/) ou o [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable) na última versão LTS.
-
-Com essas aplicações instaladas, abra o cmd ou o powershell (dependendo do sistema operacional utilizado) na pasta da aplicação. Logo em seguida, execute os seguintes comandos, em sequência:
+With these applications installed, open the terminal in the application folder. Then, execute the following commands, in sequence:
 
 ### Execute
 
 ```
-git clone https://github.com/alessandrohenriqueramos/localizar-ip.git
-cd localizar-ip
+git clone https://github.com/alessandrohenriqueramos/locate-ip.git
+cd locate-ip
 ```
 
-### No Windows / Mac / Linux:
-
-#### **npm**
+### Windows / Mac / Linux:
 
 ```
-npm install
+npm
 ```
 
-#### **yarn**
+or
 
 ```
 yarn
 ```
 
-### Inicie o servidor:
-
-#### **npm**
+### Start the server:
 
 ```
 npm start
 ```
 
-#### **yarn**
+or
 
 ```
 yarn start
 ```
 
-### Espere abrir este URL no seu navegador:
+### Wait to open this URL in your browser:
 
 ```
 http://localhost:3000
