@@ -1,19 +1,19 @@
-import React from 'react';
+import React from "react";
 
-import Header from './components/Header';
-import IP from './components/IP';
+import IP from "./components/IP";
 
-import { Container } from './styles/styles';
-import GlobalStyles from './styles/GlobalStyles';
+import { Container, Background } from "./styles/styles";
+import GlobalStyles from "./styles/GlobalStyles";
 
 const App: React.FC = () => {
-  return(
+  return (
     <Container>
-      <Header />
-      <IP />
+      <Background>
+        <IP />
+      </Background>
       <GlobalStyles />
     </Container>
   );
-}
+};
 
 export default App;
