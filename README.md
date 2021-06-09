@@ -3,8 +3,8 @@
 An application that provides you with data from an ip.
 
 <p align="center">
-    <img src="https://img.shields.io/github/license/alessandrohenriqueramos/locate-ip?color=000" alt="license"/>
-    <img src="https://img.shields.io/github/package-json/v/alessandrohenriqueramos/locate-ip?color=000" alt="version">
+    <img src="https://img.shields.io/github/license/alessandroramos13/locate-ip?color=000" alt="license"/>
+    <img src="https://img.shields.io/github/package-json/v/alessandroramos13/locate-ip?color=000" alt="version">
 </p>
 
 ## Access
@@ -20,7 +20,7 @@ With these applications installed, open the terminal in the application folder. 
 ### Execute
 
 ```
-git clone https://github.com/alessandrohenriqueramos/locate-ip.git
+git clone https://github.com/alessandroramos13/locate-ip.git
 cd locate-ip
 ```
 
